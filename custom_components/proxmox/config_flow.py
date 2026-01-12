@@ -44,8 +44,10 @@ class ProxmoxConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         errors: dict[str, str] = {}
 
         if user_input is not None:
-            # Here you would typically validate the connection to Proxmox
-            # For now, we'll just create the entry
+            # TODO: Add connection validation to Proxmox VE server
+            # - Test connection to the API endpoint
+            # - Verify authentication credentials
+            # - Handle connection errors appropriately
             
             await self.async_set_unique_id(
                 f"{user_input[CONF_HOST]}:{user_input[CONF_PORT]}"
