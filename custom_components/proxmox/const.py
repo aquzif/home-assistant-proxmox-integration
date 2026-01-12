@@ -3,10 +3,7 @@
 DOMAIN = "proxmox"
 
 # Configuration
-CONF_HOST = "host"
 CONF_PORT = "port"
-CONF_USERNAME = "username"
-CONF_PASSWORD = "password"
 CONF_VERIFY_SSL = "verify_ssl"
 CONF_NODE = "node"
 
