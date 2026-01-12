@@ -1,0 +1,7 @@
+{
+  "name": "Proxmox VE",
+  "content_in_root": false,
+  "filename": "proxmox",
+  "render_readme": true,
+  "homeassistant": "2023.1.0"
+}
