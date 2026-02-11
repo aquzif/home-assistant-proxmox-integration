@@ -1,0 +1,6 @@
+# Wklej do swojego configuration.yaml (Home Assistant)
+proxmox_status:
+  host: "https://proxmox.arpa.home"
+  node: "proxmox"
+  token: "PVEAPIToken=root@pam!token_id=d2ccc3f2-37bd-4869-b2e4-cd4ab3c1f57d"
+  scan_interval: 30

@@ -1,0 +1,9 @@
+{
+  "domain": "proxmox_status",
+  "name": "Proxmox Status",
+  "version": "0.1.0",
+  "documentation": "https://github.com/example/home-assistant-proxmox-integration",
+  "requirements": ["aiohttp>=3.9.0"],
+  "codeowners": ["@local"],
+  "iot_class": "local_polling"
+}
